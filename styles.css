@@ -1,0 +1,62 @@
+/* Made by Isaac Hus, September 2022
+ CSS file for AHS calculation applet
+ Github: 1saacH */
+
+*{
+    background-color: #2b2d42;
+    color:#a1b5d8;
+    position: relative;
+    left:10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+button,input{
+    padding:20px;
+    background-color: darkgray;
+    border: 0px;
+    border-radius: 3px;
+}
+
+input{
+    padding:10px;
+    left:0px;
+    padding-right:20px;
+}
+form{
+    padding-top:50px;
+    color: #fffcf7;
+}
+h4{
+    display: inline;
+    padding: 15px;
+    border-radius: 2px;
+    background-color: #738290;
+    position: relative;
+    top: 20px;
+    color: black;
+    font-size: x-large;
+}
+button:hover{
+    background-color:  rgb(65,60,60);
+}
+h1,h2{
+    padding: 20px;
+    padding-left: 0px;
+}
+h1{
+    font-weight: bolder;
+}
+img{
+    display: block;
+    height: 900px;
+    left:900px;
+    bottom: 440px
+}
+input,button{
+    color: #2b2d42;
+}

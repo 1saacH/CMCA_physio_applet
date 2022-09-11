@@ -1,0 +1,32 @@
+<!-- Made by Isaac Hus, September 2022
+ CSS file for AHS calculation applet
+ Github: 1saacH -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMCA</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./head_image.png">
+</head>
+<body>
+    <h1>Cranial Measurement Calculation Applet</h1>
+    <form action="./math.js">
+        <h2>Enter Data</h2>
+        <p>Cranial Width&emsp;&emsp;&emsp;&emsp;&emsp;Cranial Lenth&emsp;&emsp;&emsp;&emsp;&emsp;Cranial Diagonal A&emsp;&emsp;&emsp;Cranial Diagonal B</p>
+        <input type="text" id="CW" placeholder="Cranial Width (mm)">
+        <input type="text" id='CL' placeholder="Cranial Length (mm)">
+        <input type="text" id="DA" placeholder="Cranial Diagonal A (mm)">
+        <input type="text" id='DB' placeholder="Cranial Diagonal B">
+    </form>
+    <p></p>
+    <button onclick="change_answer()" >Submit</button>
+    <p></p>
+    <h4 id="answer"></h4>
+    <img src="./head_image.png" alt="head_measure_image">
+    <script src="./math.js"></script>
+</body>
+</html>
